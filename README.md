@@ -4,6 +4,11 @@ Made by NRRINC Media. You can copy but Please give credit :)
 
 **** MAKE SURE TO READ THE NOTES****
 
+to install sh file:
+ - sudo apt-get install git
+ - git clone https://github.com/Nolanrulesroblox/Apache2-Install-V2.git
+
+
 Just run "Apache2 Install and Uninstall.sh" In the Ubuntu terminal!
 
 What this Script adds to your System
@@ -35,6 +40,8 @@ What this Script adds to your System
  If you need more then 2 sites a Script with upto 5 sites will be coming within the year.
  -
  if you are using just 1 site, Just Fill out the 2nd one with Example.com (dummy site and wont be used)
+ -
+ Make sure you Right click and make file an executable or the script will NEVER work.
  -
  for your site. Replace the Index file with your Site. (ex: /var/www/yoursite.com/public_html/*put your website files here*) 
  you also need to stop the Apache service (sudo service apache2 stop) and put in the files then Turn on Apache (sudo service apache2 start)
