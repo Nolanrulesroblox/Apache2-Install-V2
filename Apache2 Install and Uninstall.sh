@@ -3,6 +3,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 GREEN='\033[1;32m'
 BLUE='\033[1;34m'
+sudo apt -y install coreutils
 printf "Check for Updates? (for Ubuntu)"
 echo
 echo
@@ -93,7 +94,7 @@ read -p "Enter website 2 (can not be the same as Website 1) www.YOURSITE2.com: "
 echo
 echo
 echo
-read -p "Enter your Username (of your user on linux, used for Owning folders): " user
+read -p "Enter your Username (of your user on linux, used for Owning folders): " USER
 echo
 printf "if you see your site : $site2 and $site1 this script is working correctly"
 echo
@@ -196,7 +197,7 @@ sleep 1
 echo ...
 echo
 echo Owning Folders 1/3
-sudo chown $user /var/www/$site1/public_html
+sudo chown $USER /var/www/$site1/public_html
 echo .
 sleep 1
 echo ..
@@ -204,7 +205,7 @@ sleep 1
 echo ...
 echo
 echo Owning Folders 2/3
-sudo chown $user /var/www/$site2/public_html
+sudo chown $USER /var/www/$site2/public_html
 echo .
 sleep 1
 echo ..
@@ -212,7 +213,7 @@ sleep 1
 echo ...
 echo
 echo Owning Folders 3/3
-sudo chown $user /var/www/
+sudo chown $USER /var/www/
 echo .
 sleep 1
 echo ..
