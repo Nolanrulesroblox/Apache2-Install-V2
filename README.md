@@ -29,7 +29,7 @@ What this Script adds to your System
      ip address (get local IP)
      chown
      ufw
-     ```
+ ```
  Any questions? Feel free to send me an email! (nolan@nrrinc.net)
  
  # Notes:
